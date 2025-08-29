@@ -1,6 +1,9 @@
 import quesos.*
 object tom {
  var energia = 50
+
+ method energia() = energia
+
  method energiaConsumida(distancia) = distancia/2
  
  method correr(distancia) {
